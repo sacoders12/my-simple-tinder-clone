@@ -1,5 +1,7 @@
 import './App.css';
 import Header from './Header';
+import { TinderCards } from './MyTinderCards';
+import { SwipeButton } from './SwipeButton';
 
 function App() {
   return (
@@ -8,7 +10,9 @@ function App() {
       {/* Header */}
       <Header/>
       {/* Card */}
+      <TinderCards/>
       {/* SwipeButton */}
+      <SwipeButton/>
     </div>
   );
 }
